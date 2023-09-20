@@ -1,0 +1,264 @@
+
+body{
+  /*  font-family: 'Gotham Rounded', sans-serif;
+      font-weight: 300;*/
+
+
+}
+
+  @import url('http://fonts.cdnfonts.com/css/gotham-rounded');
+.main-nav,
+.main-nav * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav > ul > li {
+  position: relative;
+  white-space: nowrap;
+  float: left;
+}
+
+.main-nav a {
+  display: block;
+  position: relative;
+  color: #A7A8AF;
+  padding: 7px 2px;
+  transition: 0.3s;
+  font-size: 13px;
+  font-family: 'Gotham Rounded', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+   margin: 18px 5PX;
+}
+
+.main-nav a::after,
+.main-nav .active > a,
+.main-nav li:hover > a {
+  color: #9EC229;
+  text-decoration: none;
+  position: relative;
+  top: 0;
+  left: 0;
+  content: "";
+  color:  #9EC229;
+  boredr-bottm:  2px solid #9EC229;
+
+}
+/*.navbar-nav>ul>li>a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -6px;
+    left: 0;
+    background-color: #106eea;
+    visibility: hidden;
+    width: 0px;
+    transition: all 0.3s ease-in-out 0s;
+}*/
+
+
+.main-nav>ul>li>a:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 3px;
+  left: 30px;
+  background-color: #9EC229;
+  visibility: hidden;
+  width: 0px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.main-nav a:hover:after,
+.main-nav li:hover>a:after,
+.main-nav .active:after {
+  visibility: visible;
+  width: 25px;
+}
+
+.main-nav a:hover,
+.main-nav .active,
+.main-nav.active:focus,
+.main-nav li:hover>a {
+  color: #9EC229;
+}
+
+
+.get-started a {
+  border-radius: 50px;
+  padding: 4px 25px 6px 25px;
+  border: 1px solid #9EC229;
+  color: #9EC229;
+}
+
+.nav-menu .get-started a:hover {
+  color: #FFFFFF;
+  background-color: #9EC229;
+}
+
+.Button1{
+   border-radius: 50px;
+  padding: 4px 25px 6px 25px;
+  border: 1px solid #9EC229;
+  color: #FFFFFF;
+  background-color: #9EC229;
+  margin-bottom: 2%;
+   margin-top: 5%;
+
+
+}
+
+.Button1:hover{
+  color:#9EC229;
+  background-color: #FFFFFF;
+}
+
+.Button2{
+   border-radius: 50px;
+  padding: 4px 25px 6px 25px;
+  border: 1px solid #9EC229;
+  color: #9EC229;
+  background-color:#FFFFFF ;
+  margin-left: 2%;
+  margin-bottom: 2%;
+ margin-top: 5%;
+
+
+}
+
+.Button2:hover{
+  color:#FFFFFF;
+  background-color:#9EC229;
+}
+
+
+
+.Button3{
+   border-radius: 50px;
+  padding: 4px 25px 6px 25px;
+  border: 1px solid #9EC229;
+  color: #9EC229;
+  background-color:#FFFFFF ;
+/*  margin-left: 2%;
+*/
+}
+
+.Button3:hover{
+  color:#FFFFFF;
+  background-color:#9EC229;
+}
+
+.section-header{
+padding-top: 2%;
+ text-align: center; 
+    text-transform: capitalize;
+font-size: 44px;
+font-weight: 44;
+  font-family: Gotham Rounded;
+  padding-top: 2%
+}
+
+ .box {
+
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+ .box:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+h6{
+  text-align: center;
+}
+.PBox{
+  font-size: 14px;
+  color: #A7A8AF;
+  text-align: center;
+  padding: 1% 1% 3% 1%;
+/*  margin-top: 3%;
+*/
+}
+.ds4{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding-bottom: 
+
+  box-shadow: 5px 10px 5px #E9EBF4;
+}
+
+.logo  {
+
+    padding: 0;
+  margin: 7px 0;
+  }
+
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+*/  text-align: center;
+  text-decoration: none;
+
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+
+}
+
+.ul1{
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-bottom {
+  z-index: 2;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.copyright {
+  text-align: center;
+  float: left;
+}
+
+.credits {
+  float: right;
+  text-align: center;
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  .copyright, .credits {
+    padding: 5px;
+    float: none;
+    text-align: ceneter;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel{
+    position: absolute;
+  left:24%;
+  top: 0.5%;
+        
+  }
+}
